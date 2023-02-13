@@ -8,9 +8,59 @@ body{
     height: 100%;
     width: 100vw;
     display: flex;
-    flex-direction: row;
+   
     justify-content: space-between;
+
+
 }
+.navbar{
+    height: 20%;
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+  
+   
+}
+.logo{
+   
+    height: 70%;
+ 
+    
+}
+.navbar-left{
+    height: 100%;
+    width: 50%;
+   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-items{
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+ margin-right: 15px;
+    text-align: center;
+}
+.vl {
+  background-color: #2F93E9;
+  width: 1px;
+  height:90px;
+  }
+
+/* }
 .lefthalf{
     position: relative;
     height: 100vh;
@@ -19,10 +69,7 @@ body{
 
 }
 
-.logo{
-    height: 10%;
-    
-}
+
 .landingpageillustration{
     height: 70%;
     width: 95%;
@@ -38,9 +85,15 @@ body{
 .navbar{
     height: 20%;
     width: 100%;
-    displa
+    display: flex;
+    flex-direction: row;
 }
+.navbar-item{
+    margin:null;
+    margin-right: 15px;
+    align-items: center;
+} */
 
 
 
-
+/* justify con feComponentTransferalign centre */
